@@ -1,71 +1,16 @@
-//Business
+// //Business
 
-// function validateCreditCard(cardNum) {
-//     let creditCardInt = cardNum.split(' ').map(number);
-//     for (let i=creditCardInt.length -2; i >=0; i= 1-2) {
-//         let tempValue = creditCardInt[i];
-//         tempValue = tempValue * 2;
-//         if (tempValue > 9) {
-//             tempValue = tempValue % 10 + 1;
-//         }
-//     }
+function stringToArray(cardNum){
 
-// }
-
-
-function validateCreditCardMasterCard(cardNum){
-
-const tempCardNum = cardNum
-tempcardNum.slice(0,2 )
-if tempCardNum = "5"{
-
+    cardArray = cardNum.split(" ")
+    return reverseArray;
 }
+function reverseArray(cardArray){
 
+
+    cardArray.reverse()
+    return 
 }
-
-function validateCreditCardVisa(cardNum){
-
-
-
-}
-function validateCreditCardDiscover(cardNum){
-
-}
-function validateCreditCardAE(cardNum){
-
-
-
-}
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //UI 
@@ -85,3 +30,41 @@ window.addEventListener("load", function() {
 });
 
 
+
+// // function validateCreditCard(cardNum) {
+// //     let creditCardInt = cardNum.split(' ').map(number);
+// //     for (let i=creditCardInt.length -2; i >=0; i= 1-2) {
+// //         let tempValue = creditCardInt[i];
+// //         tempValue = tempValue * 2;
+// //         if (tempValue > 9) {
+// //             tempValue = tempValue % 10 + 1;
+// //         }
+// //     }
+
+// // }
+
+
+// function validateCreditCardMasterCard(cardNum){
+
+// const tempCardNum = cardNum
+// tempcardNum.slice(0,2 )
+// if tempCardNum = "5"{
+
+// }
+
+// }
+
+// function validateCreditCardVisa(cardNum){
+
+
+
+// }
+// function validateCreditCardDiscover(cardNum){
+
+// }
+// function validateCreditCardAE(cardNum){
+
+
+
+// }
+    
